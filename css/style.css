@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: darkcyan;
+}
+
+.wrapper {
+    width: 70%;
+    height: 100%; /* da canc */
+    margin: 70px auto;
+}
+
+h1,
+h2,
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 1px 3px 2px rgb(43, 75, 64);
+}
+
+.ins-dati {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.ins-dati input,
+.ins-dati select {
+    padding: 10px 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: 2px solid darkcyan;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.btn button {
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+#genera,
+#annulla {
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+.ticket {
+    background-color: #fff;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+table {
+    width: 98%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 6px auto;
+    
+}
+
+th, td {
+    width: 20%;
+    padding: 25px;
+}
+
+th:first-child, td:first-child {
+    background-color: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+/* .show {
+    display: block;
+} */
