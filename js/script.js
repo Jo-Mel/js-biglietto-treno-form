@@ -17,13 +17,13 @@ document.getElementById('genera').addEventListener('click', function(){ // al cl
 
     document.getElementById('tck-nome-pass').innerHTML = nomeCognome;
 
-    var carrozza = Math.floor(Math.random()* 10);
+    var carrozza = Math.floor(Math.random()* 10);                      // genero i numeri random per carrozza e codice CP
     document.getElementById('tck-carrozza').innerHTML = carrozza;
 
     var codice = Math.floor(Math.random()* (99999 - 90000 + 1) + 90000);
     document.getElementById('tck-cod-cp').innerHTML = codice;
 
-    var prezzo = 0.21 * km;
+    var prezzo = 0.21 * km; // calcolo il prezzo standard
     prezzo = prezzo.toFixed(2);
     var offerta = 'Prezzo Standard';
 
@@ -46,7 +46,7 @@ document.getElementById('genera').addEventListener('click', function(){ // al cl
 
 });
 
-document.getElementById('annulla').addEventListener('click', function(){
+document.getElementById('annulla').addEventListener('click', function(){ //funzione per il reset dei dati al click del bottone 'annulla'
     location.reload();
 });
 

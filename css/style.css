@@ -36,12 +36,23 @@ h3 {
     padding-top: 20px;
 }
 
+.ins-dati p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
 .ins-dati input,
 .ins-dati select {
     padding: 10px 8px;
     border-radius: 4px;
     margin-top: 10px;
     border: 2px solid darkcyan;
+}
+
+.ins-dati input:hover,
+.ins-dati select:hover {
+    background-color: rgba(0, 139, 139, 0.3);
 }
 
 .btn {
@@ -53,19 +64,29 @@ h3 {
 .btn button {
     padding: 10px 20px;
     border-radius: 4px;
+    border: 2px solid darkcyan;
+    box-shadow: 1px 0 2px rgb(43, 75, 64);
+}
+
+#genera:hover,
+#annulla:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+    color: white;
 }
 
 #genera,
 #annulla {
     font-size: 18px;
     margin-right: 30px;
+    color: darkcyan;
 }
 
 .ticket {
     background-color: #fff;
     margin-top: 10px;
     padding-bottom: 30px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 h4 {
@@ -80,6 +101,10 @@ table {
     border-bottom: 1px solid grey;
     margin: 6px auto;
     
+}
+
+.row-1 {
+    font-size: 20px;
 }
 
 th, td {
